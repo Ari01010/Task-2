@@ -1,5 +1,6 @@
 # Task-2
 To-Do List app
+
 This program works by loading a list of tasks from a file, presenting a menu to the user, and then performing actions on that list (adding, removing, viewing). When the user is done, the updated list is saved back to the file.
 
 f.write(task + "\n"): It iterates through the list of tasks and writes each one to the file. We add "\n" (a newline character) at the end of each task.
