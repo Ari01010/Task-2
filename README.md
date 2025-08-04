@@ -8,7 +8,7 @@ What it does: Prints the list of tasks to the console in a user friendly format.
 
 try-except ValueError: This is another form of error handling. If the user enters text instead of a number (e.g., "hello"), int() will raise a ValueError, and the program will print a friendly error message instead of crashing.
 
-task_number = int(input(...)): We convert the user's input string to an integer.
+task_number = int(input(...)): To convert the user's input string to an integer.
 
 if 1 <= task_number <= len(tasks):: This is a validation check to make sure the number the user entered is within the valid range of tasks.
 
